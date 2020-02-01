@@ -10,5 +10,13 @@ package MDL;
  * @author Polid
  */
 public abstract class Member {
-    
+
+    private final int _ID = 1;
+    private int Id;
+    private String Nom;
+    private String Prenom;
+    private String Telephone;
+    private String Email;
+    private String sexe;
+    private Adress adresse;
 }

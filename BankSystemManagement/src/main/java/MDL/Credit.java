@@ -10,5 +10,11 @@ package MDL;
  * @author Polid
  */
 public class Credit {
-    
+    final int _ID = 1;
+    private int Id;
+    private double amount;
+    private float InterestRate;
+    private double reembousementPlan;
+    private Client client;
+    private ClientManager cManager;
 }

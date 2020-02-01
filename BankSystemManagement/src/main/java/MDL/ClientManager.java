@@ -5,10 +5,18 @@
  */
 package MDL;
 
+import java.util.List;
+
 /**
  *
  * @author Polid
  */
 public class ClientManager extends Member {
-    
+    //Class variables
+    List<Client> ClientsInCharge;
+    //object Variables
+    private String identifiant;
+    private String MotDepasse;
+    private String Bureau;
+
 }
