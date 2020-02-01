@@ -88,6 +88,11 @@ public class Client extends Member {
     public void setClientManager(ClientManager clientManager) {
         this.clientManager = clientManager;
     }
+
+    @Override
+    public String toString() {
+        return "Client{" + "salary=" + salary + ", maritalStatus=" + maritalStatus + ", birthDate=" + birthDate + ", adress=" + adress + ", accounts=" + accounts + ", clientManager=" + clientManager + '}';
+    }
     
     
 }

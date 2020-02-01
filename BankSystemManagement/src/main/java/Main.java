@@ -9,5 +9,7 @@
  * @author Polid
  */
 public class Main {
-    
+    public static void main(String[] args){
+    System.out.println("Hello Jenkins! Do you like my code?");
+    }
 }
